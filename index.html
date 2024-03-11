@@ -50,25 +50,24 @@
 
 <!-- Footer row -->
 <div class="container-fluid footer-row">
-    <div class="row align-items-center">
-        <div class="col-md-6">
+    <div class="row align-items-center justify-content-center"> <!-- Added justify-content-center for centering -->
+        <div class="col-md-6 text-center mb-3 mb-md-0"> <!-- Adjusted column size and added text-center class for centering -->
             <!-- Logo on the left half -->
             <img src="crwdhealth.jpeg" class="footer-logo img-fluid" alt="Footer Logo"> <!-- Added img-fluid class -->
             <!-- Optional: Add a text for your logo -->
             <span class="logo-text"></span>
         </div>
-        <div class="col-md-6 text-end">
+        <div class="col-md-6 text-center">
             <!-- Contact Us button with email icon on the right half -->
             <button class="btn contact-btn">
             <a href="mailto:michael@crwdhealth.com" class="btn contact-btn">
-                <center>
-                Contact Us <i class="bi bi-envelope-fill"></i>
-                </center>
+                Contact Us <i class="bi bi-envelope-fill"></i> <!-- Removed center tag -->
             </a>
             </button>
         </div>
     </div>
 </div>
+
 
 <!-- Include Lottie library -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
