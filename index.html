@@ -11,10 +11,24 @@
             background-color: #040D28; /* Background color */
         }
 
-        #lottie-animation {
-            width: 100%; /* Make the animation container take full width */
+        .img-fluid {
             max-width: 100%;
             height: auto;
+        }
+
+        .footer-row {
+            background-color: #1f3f65; /* Different color for the footer row */
+            padding: 20px 0; /* Add padding for spacing */
+            color: #fff; /* Text color */
+        }
+
+        .footer-logo {
+            margin-right: 20px; /* Add some margin for spacing */
+        }
+
+        .contact-btn {
+            background-color: #f9a826; /* Button color */
+            color: #fff; /* Text color */
         }
     </style>
 </head>
@@ -25,9 +39,28 @@
     <div class="row justify-content-center">
         <div class="col-12 col-md-8"> <!-- Adjust column size as per your design -->
             <center>
+            <img src="crwdhealth.jpeg" class="img-fluid" alt="Your Image">
             <!-- Add your Lottie animation container -->
             <div id="lottie-animation"></div>
             </center>
+        </div>
+    </div>
+</div>
+
+<!-- Footer row -->
+<div class="container-fluid footer-row">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <!-- Logo on the left half -->
+            <img src="crwdhealth.jpeg" class="footer-logo" alt="Footer Logo">
+            <!-- Optional: Add a text for your logo -->
+            <span class="logo-text">Crwdhealth</span>
+        </div>
+        <div class="col-md-6 text-end">
+            <!-- Contact Us button with email icon on the right half -->
+            <button class="btn contact-btn">
+                Contact Us <i class="bi bi-envelope-fill"></i>
+            </button>
         </div>
     </div>
 </div>
